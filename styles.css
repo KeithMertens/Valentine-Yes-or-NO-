@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #4169e1; /* Royal Blue */
+  font-family: 'Arial', sans-serif;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #fdfdfd; /* White for contrast */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #ffcc00; /* Gold for a royal touch */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #ff4500; /* Orange Red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 5px solid #4169e1; /* White border for elegance */
+}
+.corner-daisy {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 300px; /* Adjust size as needed */
+  height: 500x;
+}
